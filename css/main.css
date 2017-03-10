@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a,
+a:hover,
+a:visited,
+a:active {
+	text-decoration: none;
+}
+body {
+	background-color: rgba(150,150,150,.25);
+	text-align: center;
+}
+nav {
+	height: 100px;
+	border-bottom: 2px solid black;
+	margin: 20px 20px 0 20px;
+}
+.leftNavLinks {
+	float: left;
+	padding: 30px 0 0 0;
+}
+.fa, .fa-diamond-o, .fa-2x {
+	display: inline;
+	color: #FF0000;
+	margin: 40px 0;
+}
+.leftNavLinks p {
+	padding: 10px 10px;
+	display: inline;
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+	color: #FF0000;
+}
+nav ul {
+	float: right;
+	margin: 40px 0;
+}
+nav ul li {
+	display: inline;
+	list-style: none;
+	padding: 0 30px;
+}
+nav ul li a,
+nav ul li a:hover,
+nav ul li a:visited,
+nav ul li a:active {
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+.intro {
+	height: 650px;
+	color: black;
+}
+.intro h1 {
+	margin-top: 60px;
+	font-size: 27px;
+}
+.intro h1 span {
+	color: #FF0000;
+}
+.intro img {
+	border-radius: 10px;
+	margin-top: 50px;
+	width: 95%;
+	height: 250px;
+}
+h2 {
+	font-family: 'Dancing Script', cursive;
+	color: #FF0000;
+}
+.row div p {
+	text-align: left;
+	margin-left: 30px;
+}
+.pictures {
+	height: 600px;
+}
+.pictures .row {
+	margin-bottom: 20px;
+}
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+.pictures .row .col-md-15 div,
+.pictures .row .col-sm-3 div {
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+.pictures .row .col-md-15 div img,
+.pictures .row .col-sm-3 div img {
+	width: 100%;
+	border-radius:10px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0
+}
+.pictures .row .col-md-15 h3,
+.pictures .row .col-sm-3 h3 {
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	margin-left: 5px;
+}
+.pictures .row .col-md-15 p,
+.pictures .row .col-sm-3 p {
+	font-family: 'Dancing Script', cursive;
+	color: #FF00ff;
+	font-size: 15px;
+	text-align: left;
+	margin-left: 5px;
+}
+.pictures h2 {
+	margin-top: 20px;
+}
+.contact {
+	background-color: black;
+	height: 300px;
+	padding: 20px;
+	text-align: left;
+}
+.contact .leftBlock,
+.contact .rightBlock {
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+.contact .leftBlock input {
+	color: black;
+	width: 100%;
+	background-color: rgba(150,150,150,1);
+	margin-top: 10px;
+	padding-left: 5px;
+}
+.contact .leftBlock .message {
+	color: black;
+	width: 100%;
+	background-color: rgba(150,150,150,1);
+	margin-top: 10px;
+	padding-left: 5px;
+}
+.contact .leftBlock button {
+	color: rgba(200,200,200,1);
+	background-color: #000;
+	padding: 5px;
+	font-size: 15px;
+}
+.fa-google-plus, .fa-youtube,
+.fa-facebook, .fa-twitter {
+	color: #FF0000;
+	display: inline;
+	float: right;
+	margin: 110px 20px 0 0;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
